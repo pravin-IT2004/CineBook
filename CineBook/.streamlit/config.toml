@@ -1,0 +1,19 @@
+[theme]
+base = "dark"
+primaryColor = "#E50914"
+backgroundColor = "#0B0B10"
+secondaryBackgroundColor = "#17171F"
+textColor = "#F4F4F6"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false
+
+[server]
+# headless = true skips Streamlit's first-run e-mail prompt; open http://localhost:8501 yourself.
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
